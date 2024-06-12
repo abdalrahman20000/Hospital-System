@@ -5,10 +5,11 @@ let counter = 0;
 
 
 let p_section = document.createElement("section");
-let after_section = document.getElementById("s_form");
+let before_section = document.querySelector("footer");
 
 //---------------------Append----------------------------
-document.body.appendChild(p_section);
+// document.body.appendChild(p_section);
+document.body.insertBefore(p_section, before_section);
 //----------------------Constructor----------------------
 function user_info(name, pass, birth, gender, phone, dis) {
     this.user_name = name;
