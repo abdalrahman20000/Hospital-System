@@ -64,3 +64,8 @@ footer {
     height: 40px;
     background-color: rgb(0, 216, 216);
 }
+
+li img {
+    display: flex;
+    justify-content: center;
+}
